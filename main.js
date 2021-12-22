@@ -1,31 +1,18 @@
-/* Plan
-
-Code to include:
-- 
-- Something to do with an array
-- Updating one of the elements within the array
-
-Scenario:
-- List of pokemon, update one of the Pokemon's moves 
-- When the pokemon reaches a certain level, must evolve and change a certain move
-
-*/
-
 /*
 👉 Write your kata here!
 
-You are about to face the Elite Four and your Pokemon has just reached level 65, the next Elite Four member that you are going to face is Wade the Water type leader. You would like to change the move of Dragonite from Fire Blast to Thunder.
+You are about to face the Elite Four and your Pokemon has just reached level 65, the next Elite Four member that you are going to face is Wade the Water type leader. You would like to change the move of Dragonite from Fire Blast to Thunder. Also, you decided that you would like to start the game with Dragonite instead of Cherubi.
 
-let array = [{name: "Cherubi", move: "Charm"}, {name: "Pikachu", move: "Thunderbolt"}, {name: "Dragonite", move: "Fire Blast"}, {name: "Feraligatr", move: "Surf"}]
+let pokemonParty = [{name: "Cherubi", move: "Charm"}, {name: "Pikachu", move: "Thunderbolt"}, {name: "Dragonite", move: "Fire Blast"}, {name: "Feraligatr", move: "Surf"}]
 
-Return the array with the updated moveset. 
+Return your pokemonParty with the updated moveset, as well as swapping the positions of Cherubi and Dragonite in your party.
 
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
 
-function newMove(array){
+export function newMove(pokemonParty){
     // Insert your solution below
-    
-    return array;
+
+      return pokemonParty;
 }
